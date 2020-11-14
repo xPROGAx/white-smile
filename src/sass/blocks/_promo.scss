@@ -18,21 +18,7 @@
         justify-content: flex-start;
         font-size: 12px;
         text-align: center;
-    }
-    &__contacts {
-        grid-column: 2/3;
-    }
-    &__phone {
-        display: flex;
-        justify-content: flex-end;
-        color: #000;
-        font-size: 16px;
-        font-weight: 700;
-        &:hover {
-            color: red;
-            text-decoration: none;
-        }
-    }    
+    }   
     &__img-girl {
         margin-top: 5px;
         width: 100%;
