@@ -1,0 +1,33 @@
+.basis {
+    position: relative;
+    margin: 10px 15px 20px 15px;
+    &__smear {
+        width: 100%;
+    }
+    &__header {
+        position: absolute;
+        color: #fff;
+        letter-spacing: 3px;
+        top: 15px;
+        left: 50%;
+        transform: translateX(-50%) rotate(-3deg);
+        
+    }
+    &__subheader {
+        opacity: 0.85;
+        letter-spacing: 2px;
+        text-align: center;
+        transform: rotate(-3deg);
+    }
+    &__lists {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        margin-top: 20px;
+        li {
+            margin-top: 10px;
+            opacity: 0.7;
+        }
+    }
+}
