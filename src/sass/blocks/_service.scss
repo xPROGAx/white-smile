@@ -1,0 +1,9 @@
+.service {
+    padding-top: 30px;
+    &__pair {
+        width: 100%;
+    }
+    li {
+        opacity: 0.6;
+    }
+}

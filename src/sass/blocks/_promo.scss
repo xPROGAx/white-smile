@@ -1,26 +1,29 @@
 .promo {   
     &__header {
-        padding: 30px 0px 0 0px;
+        padding: 30px 10px 0 10px;
         display: grid;
-        grid-template: repeat(2, auto) / 0.8fr 1fr;
+        grid-template: repeat(2, auto) / 0.5fr 1fr;
         align-items: center;
+        column-gap: 25px;
     }
     &__logo {
         display: flex;
-        justify-content: center;
+        justify-content: flex-end;
         img {
-            width: 80px;
-            height: 80px;
+            width: 75px;
+            height: 75px;
         }
     }
     &__heading {
         display: flex;
-        justify-content: flex-start;
-        font-size: 12px;
+        justify-self: center;
+        font-size: 14px;
+        font-weight: normal;
         text-align: center;
+        margin: 0;
     }   
     &__img-girl {
-        margin-top: 5px;
+        margin-top: 10px;
         width: 100%;
     }
 }
