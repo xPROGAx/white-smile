@@ -1,7 +1,7 @@
 {
-  "name": "pulse",
+  "name": "vadim",
   "version": "1.0.0",
-  "description": "",
+  "description": "my first gulp",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
