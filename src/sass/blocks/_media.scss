@@ -1,7 +1,7 @@
-@media (max-width: 575px) {
+@media (min-width: 375px) {
     .promo {
         &__heading {
-            font-size: 16px;
+            font-size: 15px;
         }
         &__logo {
             img {
@@ -11,49 +11,95 @@
         }
     }
     .basis {
+        &__smear {
+            width: 90%;
+        }
         &__header {
-            letter-spacing: 3px;
-            font-size: 31px;
+            font-size: 30px;
+            top: 10px;
+            &_more {
+                left: 28%;
+            }
         }
         &__subheader {
-            font-size: 31px;
+            font-size: 28px;
+        }
+        &__lists {
+            font-size: 20px;
         }
     }
 }
 
-@media (max-width: 425px) {
-    .basis {
-        margin: 10px 5px;
-        &__header {
-            letter-spacing: 2px;
-        }
-    }
-}
-
-@media (max-width: 375px) {
+@media (min-width: 460px) {
     .promo {
         &__heading {
-            font-size: 11px;
+            font-size: 18px;
         }
         &__logo {
             img {
-                width: 70px;
-                height: 70px;
+                width: 90px;
+                height: 90px;
             }
         }
     }
     .basis {
-        &__block {
-            img {
-                width: 80%;
-            }
+        &__smear {
+            width: 95%;
         }
         &__header {
-            font-size: 24px;
-            top: 13px;
+            font-size: 40px;
+            top: 12px;
+            &_more {
+                font-size: 38px;
+                left: 28%;
+            }
+            &_center {
+                top: 8px;
+            }
         }
         &__subheader {
+            font-size: 28px;
+        }
+        &__lists {
+            font-size: 20px;
+        }
+    } 
+}
+
+@media (min-width: 520px) {
+    .container {
+        width: 90%;
+    }
+    .promo {
+        &__heading {
+            font-size: 20px;
+        }
+        &__logo {
+            img {
+                width: 95px;
+                height: 95px;
+            }
+        }
+    }
+    .basis {
+        &__header {
+            letter-spacing: 5px;
+            font-size: 42px;
+            &_more {
+                font-size: 38px;
+                letter-spacing: 3px;
+                left: 26%;
+            }
+            &_center {
+                top: 6px;
+            }
+        }
+        &__subheader {
+            font-size: 36px;
+        }
+        &__lists {
             font-size: 24px;
         }
     }
 }
+

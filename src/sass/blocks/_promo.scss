@@ -1,14 +1,14 @@
 .promo {   
     &__header {
-        padding: 30px 10px 0 10px;
+        padding: 30px 10px 0 0px;
         display: grid;
         grid-template: repeat(2, auto) / 0.5fr 1fr;
         align-items: center;
-        column-gap: 25px;
+        column-gap: 15px;
     }
     &__logo {
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
         img {
             width: 75px;
             height: 75px;
@@ -17,7 +17,7 @@
     &__heading {
         display: flex;
         justify-self: center;
-        font-size: 14px;
+        font-size: 13px;
         font-weight: normal;
         text-align: center;
         margin: 0;
